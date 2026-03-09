@@ -1,0 +1,11 @@
+{
+  "name": "zen-proxy",
+  "version": "1.0.0",
+  "description": "Minimal reverse proxy that strips Authorization headers",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "license": "MIT"
+}
