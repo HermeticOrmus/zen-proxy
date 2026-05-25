@@ -1,5 +1,21 @@
-# zen-proxy
+<p align="center">
+  <img src="https://ormus.solutions/mascot/chain_braces_to_swan.gif" alt="zen-proxy" width="128" style="image-rendering: pixelated;" />
+</p>
 
+<h1 align="center">zen-proxy</h1>
+
+<p align="center">
+  <em>Minimal reverse proxy that strips Authorization headers</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HermeticOrmus/zen-proxy/stargazers"><img src="https://img.shields.io/github/stars/HermeticOrmus/zen-proxy?style=flat-square&color=aa8142" alt="Stars" /></a>
+  <a href="https://github.com/HermeticOrmus/zen-proxy/blob/main/LICENSE"><img src="https://img.shields.io/github/license/HermeticOrmus/zen-proxy?style=flat-square&color=aa8142" alt="License" /></a>
+  <a href="https://github.com/HermeticOrmus/zen-proxy/commits"><img src="https://img.shields.io/github/last-commit/HermeticOrmus/zen-proxy?style=flat-square&color=aa8142" alt="Last Commit" /></a>
+  <img src="https://img.shields.io/badge/Claude_Code-aa8142?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" />
+</p>
+
+---
 Minimal reverse proxy that strips `Authorization` headers before forwarding requests upstream. Useful when a client insists on sending a Bearer token but the target API rejects it.
 
 Zero dependencies. Single file. Node 18+.
